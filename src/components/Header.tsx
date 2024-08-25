@@ -13,7 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import SmokeFreeIcon from "@mui/icons-material/SmokeFree";
 
-const pages = ["Introduction", "Product", "Works"];
+const pages = ["Introduction", "Product", "Skill"];
 const settings = ["X", "Protopedia"];
 
 function Header() {
@@ -43,7 +43,7 @@ function Header() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <SmokeFreeIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          <SmokeFreeIcon sx={{ display: { mb: "none", lg: "flex" }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -62,7 +62,7 @@ function Header() {
             MICHIRU（pc）
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          <Box sx={{ flexGrow: 1, display: { mb: "flex", lg: "none" } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
