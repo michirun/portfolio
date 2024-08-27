@@ -42,6 +42,7 @@ const Introduction = () => {
               <Typography
                 variant="h1"
                 fontWeight="fontWeightMedium"
+                gutterBottom
                 sx={{
                   fontSize: {
                     xs: "3vw", // スマホ
@@ -49,6 +50,18 @@ const Introduction = () => {
                 }}
               >
                 ポートフォリオサイト
+              </Typography>
+              <Typography
+                variant="h1"
+                fontWeight="fontWeightMedium"
+                color="text.secondary"
+                sx={{
+                  fontSize: {
+                    xs: "2vw", // スマホ
+                  },
+                }}
+              >
+                （レスポンシブにしたよ）
               </Typography>
             </CardContent>
           </Box>
