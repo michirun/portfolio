@@ -15,46 +15,35 @@ const Introduction = () => {
           <Box>
             <CardContent>
               <Typography
-                variant="h1"
                 fontWeight="fontWeightBold"
                 component="span"
                 gutterBottom
                 sx={{
                   fontSize: {
-                    xs: "1rem", // スマホ
-                    sm: "4rem", // タブレット
-                    md: "5rem", // デスクトップ中サイズ
-                    lg: "5rem", // デスクトップ大サイズ
+                    xs: "5vw", // スマホ
                   },
                 }}
               >
                 道上康介
               </Typography>
               <Typography
-                variant="h3"
                 fontWeight="fontWeightBold"
                 component="span"
                 gutterBottom
                 sx={{
                   fontSize: {
-                    xs: "1rem", // スマホ
-                    sm: "3rem", // タブレット
-                    md: "4rem", // デスクトップ中サイズ
-                    lg: "4rem", // デスクトップ大サイズ
+                    xs: "3vw", // スマホ
                   },
                 }}
               >
                 の
               </Typography>
               <Typography
-                variant="h2"
+                variant="h1"
                 fontWeight="fontWeightMedium"
                 sx={{
                   fontSize: {
-                    xs: "1rem", // スマホ
-                    sm: "3rem", // タブレット
-                    md: "3rem", // デスクトップ中サイズ
-                    lg: "3rem", // デスクトップ大サイズ
+                    xs: "3vw", // スマホ
                   },
                 }}
               >
