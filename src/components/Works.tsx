@@ -25,21 +25,28 @@ const Works = () => {
               <br />
             </Typography>
             <Grid container justifyContent="center" spacing={5}>
-              <Grid item lg={4} mb={6} xs={12}>
+              <Grid item lg={4} sm={6} xs={12}>
                 <ProductCard
                   pname="国会劇場"
                   description="国会中継をエンタメに！"
                   imageUrl={diet}
                 />
               </Grid>
-              <Grid item lg={4} mb={6} xs={12}>
+              <Grid item lg={4} sm={6} xs={12}>
                 <ProductCard
                   pname="叫流式便器"
                   description="叫んで流せ、心のうんこ"
                   imageUrl={toilet}
                 />
               </Grid>
-              <Grid item lg={4} mb={6} xs={12}>
+              <Grid item lg={4} sm={6} xs={12}>
+                <ProductCard
+                  pname="思春期マヨネーズ"
+                  description="神出鬼没のオカン対策"
+                  imageUrl={mayo}
+                />
+              </Grid>
+              <Grid item lg={4} sm={6} xs={12}>
                 <ProductCard
                   pname="思春期マヨネーズ"
                   description="神出鬼没のオカン対策"
