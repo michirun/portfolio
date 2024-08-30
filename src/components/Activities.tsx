@@ -8,6 +8,7 @@ const Activities = () => {
         <Box>
           <Typography
             fontWeight="fontWeightBold"
+            color="#262626"
             gutterBottom
             sx={{
               fontSize: {

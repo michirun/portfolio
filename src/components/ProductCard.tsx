@@ -17,7 +17,12 @@ const ProductCard = (props: Product) => {
     <Card>
       <CardMedia component="img" image={props.imageUrl} alt="green iguana" />
       <CardContent>
-        <Typography gutterBottom fontWeight="fontWeightBold" component="div">
+        <Typography
+          gutterBottom
+          fontWeight="fontWeightBold"
+          color="#262626"
+          component="div"
+        >
           {props.pname}
         </Typography>
         <Typography

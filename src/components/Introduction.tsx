@@ -17,6 +17,7 @@ const Introduction = () => {
               <Typography
                 fontWeight="fontWeightBold"
                 component="span"
+                color="#262626"
                 gutterBottom
                 sx={{
                   fontSize: {
@@ -29,6 +30,7 @@ const Introduction = () => {
               <Typography
                 fontWeight="fontWeightBold"
                 component="span"
+                color="#262626"
                 gutterBottom
                 sx={{
                   fontSize: {
@@ -41,6 +43,7 @@ const Introduction = () => {
               <Typography
                 variant="h1"
                 fontWeight="fontWeightMedium"
+                color="#262626"
                 gutterBottom
                 sx={{
                   fontSize: {
