@@ -26,7 +26,7 @@ const Works = () => {
               <br />
             </Typography>
             <Grid container justifyContent="center" spacing={5}>
-              <Grid item lg={4} sm={6} xs={12}>
+              <Grid item lg={4} sm={6} xs={11}>
                 <ProductCard
                   pname="国会劇場"
                   description="国会中継をエンタメに！"
@@ -34,7 +34,7 @@ const Works = () => {
                   productUrl="https://protopedia.net/prototype/5059"
                 />
               </Grid>
-              <Grid item lg={4} sm={6} xs={12}>
+              <Grid item lg={4} sm={6} xs={11}>
                 <ProductCard
                   pname="叫流式便器"
                   description="叫んで流せ、心のうんこ"
@@ -42,7 +42,7 @@ const Works = () => {
                   productUrl="https://protopedia.net/prototype/5663"
                 />
               </Grid>
-              <Grid item lg={4} sm={6} xs={12}>
+              <Grid item lg={4} sm={6} xs={11}>
                 <ProductCard
                   pname="思春期マヨネーズ"
                   description="神出鬼没のオカン対策"
@@ -50,7 +50,7 @@ const Works = () => {
                   productUrl="https://protopedia.net/prototype/4944"
                 />
               </Grid>
-              <Grid item lg={4} sm={6} xs={12}>
+              <Grid item lg={4} sm={6} xs={11}>
                 <ProductCard
                   pname="Go!Go!筆BA-GOOOOORN!"
                   description="授業中でも好きな子にいたずらできる筆箱"
