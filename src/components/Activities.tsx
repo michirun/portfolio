@@ -4,7 +4,7 @@ import React from "react";
 const Activities = () => {
   return (
     <Grid container justifyContent="center">
-      <Grid item xs={10}>
+      <Grid item xs={12}>
         <Box>
           <Typography
             fontWeight="fontWeightBold"
@@ -12,7 +12,8 @@ const Activities = () => {
             gutterBottom
             sx={{
               fontSize: {
-                xs: "2.5vw", // スマホ
+                xs: "3vw", // スマホ
+                xl: "2.5vw",
               },
             }}
           >
