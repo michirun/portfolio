@@ -26,7 +26,7 @@ const Works = () => {
               <br />
               <br />
             </Typography>
-            <Grid container spacing={5}>
+            <Grid container spacing={5} justifyContent="center">
               <Grid item lg={4} sm={6} xs={11}>
                 <ProductCard
                   pname="国会劇場"
